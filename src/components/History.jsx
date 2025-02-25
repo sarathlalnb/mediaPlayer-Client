@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { deleteHistory, getAllHistory } from "../services/AllAPI";
+import  deleteHistory from "../services/AllAPI";
+import getAllHistory from "../services/allAPI"
 
 const History = () => {
   const [historyData, setHistoryData] = useState([]);
